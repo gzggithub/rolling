@@ -1,0 +1,161 @@
+.voucher {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+
+.topTips {
+    width: 100%;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    margin-bottom: 0.266667rem;
+    padding-top: 0.2rem;
+    text-align: center;
+    font-size: 0.35rem;
+    color: rgba(51, 51, 51, 1);
+}
+
+.account-login {
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 0.5rem;
+    font-size: 0.4rem;
+    color: rgba(51,51,51,1);
+    font-weight: bold;
+}
+
+.item {
+    width: 100%;
+    padding: 0.373333rem;
+    position: relative;
+}
+
+.item input {
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    padding: 0.133333rem 0.266667rem;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    font-size: 0.28rem;
+    color: rgba(153,153,153,1);
+    font-weight: 400;
+    position: relative;
+}
+
+/* 修改input placeholder 样式 */
+input::-webkit-input-placeholder {
+    color: rgba(153,153,153,1);
+    font-size: 0.28rem;
+}
+
+.item img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.scan div:first-child {
+    width: 4.04rem;
+    height: 4.04rem;
+    line-height: 4.04rem;
+    margin: 3.0rem auto;
+    text-align: center;
+    background: #FFC411;
+    box-shadow: 4px 2px 12px 0px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    font-size: 0.6rem;
+    color: #FFF;
+}
+
+.scan div:last-child {
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.login {
+    width: 100%;
+    margin-top: 0.533333rem;
+}
+
+.login button {
+    width: 85%;
+    height: 1.0rem;
+    line-height: 1.0rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: rgba(218,218,218,1);
+    box-shadow: 0px 2px 4px 0px rgba(26,25,25,0.1);
+    border-radius: 0.5rem;
+}
+
+.login button.active {
+    background: #FFC411;
+}
+
+.voucher-success {
+    width: 100%;
+    padding: 2.62rem 0 0;
+    text-align: center;
+}
+
+.success-icon {
+    width: 1.86rem;
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.title-suc {
+    margin-top: 0.5rem;
+    font-size: 0.4rem;
+    color: #333333;
+    font-weight: bold;
+}
+
+.auto-return {
+    margin: 0.48rem 0 5.62rem;
+    font-size: 0.28rem;
+    color: #999999;
+}
+
+.sign-out {
+    font-size: 0.28rem;
+    color: #333333;
+}
+
+.messageBox {
+    width: 3.2rem;
+    height: 2.4rem;
+    background: rgba(51,51,51,0.9);
+    border-radius: 10px;
+    padding: 20px 0 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;    
+}
+
+.messageBox div:first-child {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAEe0lEQVRYR+2Ya+jeYxjHP1+bQ5Iww4p54bBGXiyHvXEohyx5Y2IrSQubEWpy3EIza1NiIce0pPCGEGLIG1kzhxwiihfKmVAOc7r0revR83/8DvfveZ7/i+V/16+een73dX9+131d3+u+brGdDW1nvEwBT/aO/f88HBGzgNOAE4DDgAOB3YG/gZ+AT4F3gVeA5yR9P8ouDO3hiDgRuBI4BZhWCLENeBK4RdIbhXMmvNYZOCIOBe5MUBv7zZ4DNgGG+AT4EdgB2AM4GDgGOBU4CZgOBPAYsELSF13AOwFHxJKE3RX4FrgVuEfSDyWLZvhcDlwC7JY2zpP0bMl8v1MMHBFrgWvT8EbgimHjMSIO8Idm7P8FXCrp7hLoIuA+2N+BZZIMPNKICK9tB6xJQ8sl3dtmtBU4w+BBwLALJT3TZrTL/xGxNL1tVVkg6cWm+Y3AmWBvAY7ZJePwbBVMRNwI3AB8BRwu6bs66DbgF1INNkpywk3KiAgrilXGUvmApAs7A6fOvpSZPGfYBCv9wog4JAuMZW+upI+r5tZ6OCKsrQucGJLWlS5c8l5EzAScC9skHdebExFWjmUplcuLgVMvPwP+AGaV6mwHWO/cEcBWSUf3Ac8F3ges617XlXHCqPRwRJzvWAKekLSwBKTknfRsD/Y9Vz5JX/fPjYg3gXnOnSrFqAN+CDgXuLhU0NuAS2BtIyLWA1cBN0m6vtTDW4EjgfmStrTBtP1fCpvAZ+c543FJZ5YCfwPsDcyU5DPDvyPDZXpJVUoAJ1hjGAzYPwp4fTC+e+/UhYSDfSc/kpx4/cA+z+4JrJW0ssm7XTzbl3iWt4/8SJpT6uFfgV38DGZqRJyRW7ZjE/QwsLkjhvzQjySrRpFKuETuA+wnyb8njIiwcjwKVEIPC5vA84HNwBZJ/l0E7Al++VhJr1Ztex30KLAJfA7wsHdR0uJS4PuBC7IjuK0uTgehgdu7JFiNIzYAlwGrJN1cCtz7yucluTzXjgFoq4tVobIoNNnpSzrHr+O4cnfrVGIv4PNsLme39V0D0KPAukxb978E9pfkbqQ9hjOW3CRaxNdLuqbNOwm9Kg/hE8pt29w+7z4COG7dVV9dNa/ptOZKZwH/2fcNknwYahwRMa3KK23z0kEuGE526/5BkrzD/xltB/jeF7urPV2S2/Oxj4jYGXgtDz3rJPWa3c7AvtV5J8v0SknunMc+IuI+wF2GD+3zJHlXK0dJE+prqKfyYuQiSTY+thERlq7rgF9SGdxD1o5W4Iwvn/7vSiurgdWS3OUOPTIM7kjP/pkd+dNtBouAE9qti6F9j/YyYG9X9l1ti0aEE8w75YO6PbtYUius7RYDJ/TJWTb3dT8G+EJlg6QP2iBzvnV2BXBWfrg/eJGkxjDot90JOBedAbgpddtvb1s53i68DOwdF32B6DK+pinBqpzQGbhnJNtye2tRno9LnOwK5vbLu1Kps21GhgbuA7eGulU/3rc2wOyGC+3NwxaW3nojA7d5ZNz/TwGP26OD9qY8PNke/gfD5t08+xFe1wAAAABJRU5ErkJggg==) no-repeat center/ 44px 44px;
+}
+
+.messageBox div:last-child {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #FFF;
+}

@@ -1,6 +1,6 @@
-# orgregister
+# voucher
 
-> orgRegister
+> voucher
 
 ## Build Setup
 
